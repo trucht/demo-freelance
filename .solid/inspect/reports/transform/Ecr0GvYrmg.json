@@ -1,0 +1,39 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/solid-start/entry-client/index.tsx?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export { default as mount } from \"./mount\";\nexport { default as StartClient } from \"./StartClient\";\n",
+      "start": 1684934465371,
+      "end": 1684934465371
+    },
+    {
+      "name": "solid",
+      "result": "export { default as mount } from \"./mount\";\nexport { default as StartClient } from \"./StartClient\";",
+      "start": 1684934465371,
+      "end": 1684934465372,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export { default as mount } from \"/node_modules/solid-start/entry-client/mount.tsx?v=ea0a39a3\";\nexport { default as StartClient } from \"/node_modules/solid-start/entry-client/StartClient.tsx?t=1684934465262&v=ea0a39a3\";",
+      "start": 1684934465372,
+      "end": 1684934465373,
+      "order": "normal"
+    },
+    {
+      "name": "solid",
+      "result": "export { default as mount } from \"./mount\";\nexport { default as StartClient } from \"./StartClient\";",
+      "start": 1684934465375,
+      "end": 1684934465376,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export { default as mount } from \"/node_modules/solid-start/entry-client/mount.tsx?v=ea0a39a3\";\nexport { default as StartClient } from \"/node_modules/solid-start/entry-client/StartClient.tsx?t=1684934465262&v=ea0a39a3\";",
+      "start": 1684934465376,
+      "end": 1684934465377,
+      "order": "normal"
+    }
+  ]
+}

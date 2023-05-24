@@ -1,0 +1,32 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/src/entry-server.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "import {\r\n  createHandler,\r\n  renderAsync,\r\n  StartServer,\r\n} from \"solid-start/entry-server\";\r\n\r\nexport default createHandler(\r\n  renderAsync((event) => <StartServer event={event} />)\r\n);\r\n",
+      "start": 1684934465333,
+      "end": 1684934465333
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { createHandler, renderAsync, StartServer } from \"solid-start/entry-server\";\nexport default createHandler(renderAsync(event => _$createComponent(StartServer, {\n  event: event\n})));",
+      "start": 1684934465333,
+      "end": 1684934465335,
+      "order": "pre"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { createHandler, renderAsync, StartServer } from \"solid-start/entry-server\";\nexport default createHandler(renderAsync(event => _$createComponent(StartServer, {\n  event: event\n})));",
+      "start": 1684934465335,
+      "end": 1684934465335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { createHandler, renderAsync, StartServer } from \"/node_modules/solid-start/entry-server/index.ts\";\nexport default createHandler(renderAsync(event => _$createComponent(StartServer, {\n  event: event\n})));",
+      "start": 1684934465335,
+      "end": 1684934465335,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/@solidjs/router/dist/index.jsx?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export * from \"./components\";\nexport * from \"./integration\";\nexport * from \"./lifecycle\";\nexport { useRouteData, useHref, useIsRouting, useLocation, useMatch, useNavigate, useParams, useResolvedPath, useSearchParams, useBeforeLeave, } from \"./routing\";\nexport { mergeSearchString as _mergeSearchString } from \"./utils\";\n",
+      "start": 1684934263253,
+      "end": 1684934263253
+    },
+    {
+      "name": "solid",
+      "result": "export * from \"./components\";\nexport * from \"./integration\";\nexport * from \"./lifecycle\";\nexport { useRouteData, useHref, useIsRouting, useLocation, useMatch, useNavigate, useParams, useResolvedPath, useSearchParams, useBeforeLeave } from \"./routing\";\nexport { mergeSearchString as _mergeSearchString } from \"./utils\";",
+      "start": 1684934263253,
+      "end": 1684934263254,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export * from \"/node_modules/@solidjs/router/dist/components.jsx?v=ea0a39a3\";\nexport * from \"/node_modules/@solidjs/router/dist/integration.js?v=ea0a39a3\";\nexport * from \"/node_modules/@solidjs/router/dist/lifecycle.js?v=ea0a39a3\";\nexport { useRouteData, useHref, useIsRouting, useLocation, useMatch, useNavigate, useParams, useResolvedPath, useSearchParams, useBeforeLeave } from \"/node_modules/@solidjs/router/dist/routing.js?v=ea0a39a3\";\nexport { mergeSearchString as _mergeSearchString } from \"/node_modules/@solidjs/router/dist/utils.js?v=ea0a39a3\";",
+      "start": 1684934263254,
+      "end": 1684934263255,
+      "order": "normal"
+    }
+  ]
+}

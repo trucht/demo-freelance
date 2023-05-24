@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/solid-start/server/shared.ts?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export { HttpHeader } from \"./components/HttpHeader\";\nexport { HttpStatusCode } from \"./components/HttpStatusCode\";\nexport { createServerAction$, createServerData$, createServerMultiAction$, ServerError } from \"./data\";\nexport * from \"./responses\";\nexport * from \"./ServerContext\";\nexport * from \"./types\";\n\n",
+      "start": 1684934286085,
+      "end": 1684934286085
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { HttpHeader } from \"./components/HttpHeader\";\nexport { HttpStatusCode } from \"./components/HttpStatusCode\";\nexport { createServerAction$, createServerData$, createServerMultiAction$, ServerError } from \"./data\";\nexport * from \"./responses\";\nexport * from \"./ServerContext\";\nexport * from \"./types\";\n",
+      "start": 1684934286085,
+      "end": 1684934286086,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export { HttpHeader } from \"/node_modules/solid-start/server/components/HttpHeader.tsx?v=ea0a39a3\";\nexport { HttpStatusCode } from \"/node_modules/solid-start/server/components/HttpStatusCode.tsx?v=ea0a39a3\";\nexport { createServerAction$, createServerData$, createServerMultiAction$, ServerError } from \"/node_modules/solid-start/server/data.ts?v=ea0a39a3\";\nexport * from \"/node_modules/solid-start/server/responses.ts?v=ea0a39a3\";\nexport * from \"/node_modules/solid-start/server/ServerContext.tsx?v=ea0a39a3\";\nexport * from \"/node_modules/solid-start/server/types.tsx?v=ea0a39a3\";\n",
+      "start": 1684934286086,
+      "end": 1684934286088,
+      "order": "normal"
+    }
+  ]
+}

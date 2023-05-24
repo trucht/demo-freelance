@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/solid-start/server/ServerContext.tsx?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "import { PageEvent } from \"./types\";\n\nimport { createContext, useContext } from \"solid-js\";\n\nexport const ServerContext = createContext<PageEvent>({} as any);\n\nexport const useRequest = () => {\n  return useContext(ServerContext)!;\n};\n\nexport const useServerContext = () => {\n  throw new Error(\"useServerContext is deprecated. Use useRequest instead.\");\n};\n",
+      "start": 1684934263241,
+      "end": 1684934263241
+    },
+    {
+      "name": "solid",
+      "result": "import { createContext, useContext } from \"solid-js\";\nexport const ServerContext = createContext({});\nexport const useRequest = () => {\n  return useContext(ServerContext);\n};\nexport const useServerContext = () => {\n  throw new Error(\"useServerContext is deprecated. Use useRequest instead.\");\n};",
+      "start": 1684934263241,
+      "end": 1684934263242,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createContext, useContext } from \"/node_modules/.vite/deps/solid-js.js?v=75b0e54f\";\nexport const ServerContext = createContext({});\nexport const useRequest = () => {\n  return useContext(ServerContext);\n};\nexport const useServerContext = () => {\n  throw new Error(\"useServerContext is deprecated. Use useRequest instead.\");\n};",
+      "start": 1684934263243,
+      "end": 1684934263243,
+      "order": "normal"
+    }
+  ]
+}

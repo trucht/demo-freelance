@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/solid-start/error-boundary/index.tsx?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;\n",
+      "start": 1684934263289,
+      "end": 1684934263289
+    },
+    {
+      "name": "solid",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;",
+      "start": 1684934263289,
+      "end": 1684934263291,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { ErrorBoundary } from \"/node_modules/solid-start/error-boundary/ErrorBoundary.tsx?v=ea0a39a3\";\nexport { ErrorMessage } from \"/node_modules/solid-start/error-boundary/ErrorBoundary.tsx?v=ea0a39a3\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;",
+      "start": 1684934263291,
+      "end": 1684934263292,
+      "order": "normal"
+    }
+  ]
+}

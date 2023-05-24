@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/src/entry-client.tsx",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "import { mount, StartClient } from \"solid-start/entry-client\";\r\n\r\nmount(() => <StartClient />, document);\r\n",
+      "start": 1684934465363,
+      "end": 1684934465363
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { mount, StartClient } from \"solid-start/entry-client\";\nmount(() => _$createComponent(StartClient, {}), document);",
+      "start": 1684934465363,
+      "end": 1684934465365,
+      "order": "pre"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "import { createComponent as _$createComponent } from \"/node_modules/.vite/deps/solid-js_web.js?v=75b0e54f\";\nimport { mount, StartClient } from \"/node_modules/solid-start/entry-client/index.tsx?t=1684934465262&v=ea0a39a3\";\nmount(() => _$createComponent(StartClient, {}), document);",
+      "start": 1684934465365,
+      "end": 1684934465365,
+      "order": "normal"
+    }
+  ]
+}

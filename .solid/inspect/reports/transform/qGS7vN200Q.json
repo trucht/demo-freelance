@@ -1,0 +1,25 @@
+{
+  "resolvedId": "/Users/truchuynh/Projects/Personal/chat-web-client/node_modules/solid-start/server/browser.ts?v=ea0a39a3",
+  "transforms": [
+    {
+      "name": "__load__",
+      "result": "export { server$ as default } from \"./server-functions/browser\";\nexport * from \"./shared\";\n\nexport const isServerFunctionRequest = () => {\n  throw new Error(\"isServerFunctionRequest is not supported on the browser\");\n};\n\n\n",
+      "start": 1684934286082,
+      "end": 1684934286082
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { server$ as default } from \"./server-functions/browser\";\nexport * from \"./shared\";\nexport const isServerFunctionRequest = () => {\n  throw new Error(\"isServerFunctionRequest is not supported on the browser\");\n};\n",
+      "start": 1684934286082,
+      "end": 1684934286084,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-analysis",
+      "result": "export { server$ as default } from \"/node_modules/solid-start/server/server-functions/browser.ts?v=ea0a39a3\";\nexport * from \"/node_modules/solid-start/server/shared.ts?v=ea0a39a3\";\nexport const isServerFunctionRequest = () => {\n  throw new Error(\"isServerFunctionRequest is not supported on the browser\");\n};\n",
+      "start": 1684934286084,
+      "end": 1684934286084,
+      "order": "normal"
+    }
+  ]
+}
